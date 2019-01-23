@@ -1,12 +1,17 @@
 #pragma warning(disable:4996)
-
 #include<iostream>
 #include<cstdio>
 #include<cstring>
 
+int main() {
+	patb9();
+
+	system("pause");
+	return 0;
+}
 
 //说反话
-inline void patb9(){
+void patb9(){
 
 	char str[90];
 	gets_s(str);
@@ -61,7 +66,7 @@ inline void patb9(){
 	*/
 }
 //回文串
-inline void cu5901() {
+void cu5901() {
 	char c[260];
 	while (gets_s(c)) {
 		int len = strlen(c);
@@ -78,7 +83,7 @@ inline void cu5901() {
 	}
 }
 //D进制的A+B
-inline void patb22() {
+void patb22() {
 	int a, b, d;
 	scanf("%d%d%d", &a, &b, &d);
 	int sum = a + b;
@@ -95,11 +100,11 @@ inline void patb22() {
 }
 
 //判断是否闰年
-inline bool isLeap(int year) {
+bool isLeap(int year) {
 	return year % 4 == 0 && year % 100 != 0 || year % 400 == 0;
 }
 //日期差值
-inline void cu1928() {
+void cu1928() {
 	int month[13][2] = {
 		{0,0},{31,31},{28,29},{31,31},{30,30},{31,31},{30,30},{31,31},{31,31},{30,30},{31,31},{30,30},{31,31}
 	};
@@ -134,7 +139,7 @@ inline void cu1928() {
 }
 
 //害死人不偿命的(3n+1)猜想
-inline void patb1() {
+void patb1() {
 	int n;
 	scanf("%d", &n);
 	int step = 0;
@@ -149,7 +154,7 @@ inline void patb1() {
 }
 
 //挖掘机技术哪家强
-inline void patb32() {
+void patb32() {
     int school[100001] = { 0 };
 	int n, schID, score, max, k;
 	scanf("%d", &n);
@@ -169,7 +174,7 @@ inline void patb32() {
 }
 
 //找x
-inline void cu1934() {
+void cu1934() {
 	const int maxn = 210;
 	int a[maxn] = { 0 };
 	int n,x;
@@ -190,7 +195,7 @@ inline void cu1934() {
 }
 
 //跟奥观海一起编程（画正方形）
-inline void patb36() {
+void patb36() {
 	int col,row;
 	char c;
 	scanf("%d %c", &col,&c);
