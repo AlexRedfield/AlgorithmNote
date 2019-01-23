@@ -4,7 +4,7 @@
 #include<cstring>
 using namespace std;
 
-//Ñ¡ÔñÅÅĞò
+//é€‰æ‹©æ’åº
 void selectSort(int* A ,int n) {
 	for (int i = 0; i < n; i++) {
 		int k = i;
@@ -17,7 +17,7 @@ void selectSort(int* A ,int n) {
 	}
 }
 
-//²åÈëÅÅĞò
+//æ’å…¥æ’åº
 void insertSort(int* A, int n) {
 
 }
