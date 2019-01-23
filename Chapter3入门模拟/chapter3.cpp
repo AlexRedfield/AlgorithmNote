@@ -3,12 +3,6 @@
 #include<cstdio>
 #include<cstring>
 
-int main() {
-	patb9();
-
-	system("pause");
-	return 0;
-}
 
 //说反话
 void patb9(){
@@ -64,6 +58,13 @@ void patb9(){
 		printf("%c", str[i]);
 	}
 	*/
+}
+
+int main() {
+	patb9();
+
+	system("pause");
+	return 0;
 }
 //回文串
 void cu5901() {
