@@ -4,7 +4,7 @@
 #include<cstring>
 using namespace std;
 
-//(ºÚµ•)—°‘Ò≈≈–Ú
+//—°‘Ò≈≈–Ú
 void selectSort(int* A ,int n) {
 	for (int i = 0; i < n; i++) {
 		int k = i;
@@ -17,7 +17,7 @@ void selectSort(int* A ,int n) {
 	}
 }
 
-//(÷±Ω”)≤Â»Î≈≈–Ú
+//≤Â»Î≈≈–Ú
 void insertSort(int* A, int n) {
 
 }
