@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter3入门模拟", "Cha
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter4算法初步", "Chapter4算法初步\Chapter4算法初步.vcxproj", "{B16C52AF-4DC4-486C-B4AF-FECE1253EA9D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter6标准模板库(STL)介绍", "Chapter6标准模板库(STL)介绍\Chapter6标准模板库(STL)介绍.vcxproj", "{1C7156E9-3B9C-484F-830E-D2C3A2BB927C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{B16C52AF-4DC4-486C-B4AF-FECE1253EA9D}.Release|x64.Build.0 = Release|x64
 		{B16C52AF-4DC4-486C-B4AF-FECE1253EA9D}.Release|x86.ActiveCfg = Release|Win32
 		{B16C52AF-4DC4-486C-B4AF-FECE1253EA9D}.Release|x86.Build.0 = Release|Win32
+		{1C7156E9-3B9C-484F-830E-D2C3A2BB927C}.Debug|x64.ActiveCfg = Debug|x64
+		{1C7156E9-3B9C-484F-830E-D2C3A2BB927C}.Debug|x64.Build.0 = Debug|x64
+		{1C7156E9-3B9C-484F-830E-D2C3A2BB927C}.Debug|x86.ActiveCfg = Debug|Win32
+		{1C7156E9-3B9C-484F-830E-D2C3A2BB927C}.Debug|x86.Build.0 = Debug|Win32
+		{1C7156E9-3B9C-484F-830E-D2C3A2BB927C}.Release|x64.ActiveCfg = Release|x64
+		{1C7156E9-3B9C-484F-830E-D2C3A2BB927C}.Release|x64.Build.0 = Release|x64
+		{1C7156E9-3B9C-484F-830E-D2C3A2BB927C}.Release|x86.ActiveCfg = Release|Win32
+		{1C7156E9-3B9C-484F-830E-D2C3A2BB927C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
