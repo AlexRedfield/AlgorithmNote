@@ -19,7 +19,7 @@ int main() {
 	for (int i = 1; i <= 5; i++)
 		vi.push_back(i);
 	cout<<vi[0]<<endl;//下标访问
-	for (it = vi.begin(); it != vi.end(); it++) {	//只有vector和string允许该写法
+	for (it = vi.begin(); it != vi.end(); it++) {	//只有vector和string允许vi.begin()+i这种写法
 		cout << *it;
 	}
 	vi.pop_back();	//删除vi的尾元素
