@@ -45,7 +45,7 @@ int main() {
 	/*
 	1.   str.replace(pos, len, str2) 把str从pos位开始、长度为len的子串替换为str2
 	2.   str.replace(it1, it2, str2) 把str的迭代器[it1, it2)范围的子串替换为str2
-	O(str.length())
+			O(str.length())
 	*/
 
 	str = "Something has happened. ";
