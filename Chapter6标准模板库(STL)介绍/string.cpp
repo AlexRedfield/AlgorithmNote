@@ -51,7 +51,7 @@ int main() {
 	str = "Something has been happened. ";
 	str2 = "will not";
 	str.replace(10, 8, str2);
-	cout << str.replace(str.begin()+str.find("hap"),str.begin()+str.length(),"happen again.");
+	cout << str.replace(str.end() - str.length() + str.find("hap"), str.begin() + str.length(), "happen again.");
 
 
 	system("pause");
