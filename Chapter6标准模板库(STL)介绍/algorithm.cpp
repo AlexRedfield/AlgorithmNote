@@ -39,7 +39,7 @@ int main() {
 	//没有满足条件的元素时，返回可以插入该元素的位置的指针或迭代器
 	int c[10] = { 1,2,2,3,3,3,5,5,5,5 };
 	printf("%d %d\n", lower_bound(c, c + 10, 3)-c, upper_bound(c, c + 10, 3)-c);
-
+	printf("%d\n", lower_bound(c, c + 10, 6) - c);
 	system("pause");
 	return 0;
 }
