@@ -33,6 +33,7 @@ int main() {
 	printf("%d %d %d\n", b[0], b[1], b[2]);
 
 	//sort(start, end, cmd(可选))
+	//stable_sort(start, end, cmd(可选))
 
 	//lower_bound(first, last, val)  upper_bound(first, last, val)用来寻找数组或容器里
 	//的[first, last)范围第一个值 大于等于  / 大于 val的元素的位置，返回该位置的指针或迭代器  O(log(last-first))

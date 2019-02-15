@@ -33,7 +33,21 @@ int main() {
 	
 	vi.erase(vi.begin() + 1);					//erase(it)删除迭代器处单个元素
 	vi.erase(vi.begin() , vi.begin() + 3);	//erase(first,last) 删除[first, last)内的所有元素
-	cout << vi[0];
+	cout << vi[0]<<endl;
+
+	//assign(first,last)
+	//将区间[first,last)的元素赋值到当前的vector容器中，或者赋n个值为x的元素到vector容器中，这个容器会清除掉vector容器中以前的内容。
+	vector<int> A(6, 100);
+	vector<int> B(5, 200);
+	int c[] = { 0,1,2,3};
+	A.assign(c, c + 3);
+	//A.assign(B.begin(), B.end());
+	//A.assign(20,5);    //赋20个值为5的元素到vector容器中
+	for (i = 0; i < A.size(); i++)
+	{
+		cout << A[i] << endl;
+	}
+
 	system("pause");
 	return 0;
 }
