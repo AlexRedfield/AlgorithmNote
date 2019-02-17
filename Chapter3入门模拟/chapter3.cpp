@@ -4,7 +4,7 @@
 #include<cstring>
 
 
-//说反话
+//说反话 
 void patb9(){
 
 	char str[90];
